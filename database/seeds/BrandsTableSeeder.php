@@ -9,10 +9,10 @@ class BrandsTableSeeder extends Seeder
     {
         factory(Brand::class)->create([
             'name' => 'Apple',
-            'name' => 'Apple',
-            'name' => 'Apple',
-            'name' => 'Apple',
-            'name' => 'Apple',
+            'name' => 'HP',
+            'name' => 'Dell',
+            'name' => 'Asus',
+            'name' => 'Lenovo',
             'name' => 'Apple'
 
         ]);
