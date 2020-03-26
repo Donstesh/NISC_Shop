@@ -30,4 +30,8 @@ class HomeController
 
         return view('front.index', compact('cat1', 'cat2'));
     }
+    public function front()
+    {
+        return view('front.template');
+    }
 }
